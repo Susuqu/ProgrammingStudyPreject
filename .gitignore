@@ -8,3 +8,4 @@
 ./data/
 /Users/qususu/GitHub/ProgrammingStudyProject/bin/.ipynb_checkpoints/
 data/test_data.csv
+bin/.ipynb_checkpoints/generate_corr_plot-checkpoint.ipynb
