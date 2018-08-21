@@ -10,3 +10,5 @@
 data/test_data.csv
 bin/.ipynb_checkpoints/generate_corr_plot-checkpoint.ipynb
 bin/test.ipynb
+.DS_Store
+bin/test.ipynb
