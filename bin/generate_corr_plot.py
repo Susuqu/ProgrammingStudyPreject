@@ -1,13 +1,15 @@
 # -*-coding:utf-8 -*-
 
 # @PROJECT  : plot test
-# @Time     : 2018/08/21 update
+# @Time     : 2018/08/22 update
 # @Author   : Qu Susu
 # @File     : generate_corr_plot.py
 # @Software : Pycharm
 
 import seaborn as sns
 import matplotlib.pyplot as plt
+import matplotlib
+matplotlib.use('Agg')  # Avoid reporting errors when x11 is not configured on Linux.
 import numpy as np
 import pandas as pd
 import os
@@ -53,9 +55,13 @@ def ExampleData(dataNum):
 def PlotCorr(df,method):
     '''
     :param df: data frame
-    :param method: pearson/spearman/kendall
+    :param method: pearson/spearman/kendall (if none match, 'pearson' method is used by default).
     :return:
     '''
+
+    method_list=['pearson','spearman','kendall']
+    if method not in method_list:
+        method='pearson'
     dfResult=df.corr(method=method)
     f,ax=plt.subplots(figsize=(4,4))
     sns.set()  # 调用sns中的函数
@@ -64,7 +70,7 @@ def PlotCorr(df,method):
     plt.setp(label_y, rotation=360, horizontalalignment='right')
     label_x = ax.get_xticklabels()
     plt.setp(label_x, rotation=45, horizontalalignment='right')
-    plt.savefig('../pic' + os.sep + '{}_{}'.format(method, 'corr.png'))
+    # plt.savefig('../pic' + os.sep + '{}_{}'.format(method, 'corr.png'))
     plt.show()
 
 if __name__=='__main__':
