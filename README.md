@@ -8,5 +8,5 @@
   - [ ] study how to use pycharm Automatic formatting（自动格式化）;_**FINISHED**_
   - [ ] study how to define a module; _**FINISHED**_
   - [ ] study basic knowledge of list, dict, array....;
-  - [yes] study python coding standardized. _**FINISHED**_
+  - [ √ ] study python coding standardized. _**FINISHED**_
 
