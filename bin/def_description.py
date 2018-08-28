@@ -1,6 +1,6 @@
 # -*-coding:utf-8 -*-
 
-# @PROJECT  : 611
+# @PROJECT  : ProgrammingStudyProject
 # @Time     : 2018/08/22
 # @Author   : Qu Susu
 # @File     : def_description.py
