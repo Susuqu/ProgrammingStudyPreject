@@ -19,3 +19,7 @@
   - [x] study how to use pycharm Automatic formatting; _**FINISHED**_
   - [x] study python coding standardized. _**FINISHED**_
 
+  _**Data processing**_
+  - [ ] pre-processing; _**ING**_
+    - [ ] convert data type;
+    - [ ] handle missing values;
