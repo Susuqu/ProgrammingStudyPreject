@@ -18,6 +18,7 @@
   _**Formatting**_  
   - [x] study how to use pycharm Automatic formatting; _**FINISHED**_
   - [x] study python coding standardized. _**FINISHED**_
+  - [ ] study how to add exception handling code.
 
   _**Data processing**_
   - [ ] pre-processing; _**ING**_
