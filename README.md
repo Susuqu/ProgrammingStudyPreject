@@ -13,7 +13,7 @@
   - [x] study how to write a basic class and def; _**FINISHED**_
   - [ ] study how to write a Advanced version class and def; _**ING**_
   - [ ] study how to write a metaclass;
-  - [ ] study how to write a father class;
+  - [ ] study how to write a father class; _**ING**_
 
   _**Formatting**_  
   - [x] study how to use pycharm Automatic formatting; _**FINISHED**_
