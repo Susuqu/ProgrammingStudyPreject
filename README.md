@@ -7,6 +7,7 @@
   _**BasicKnowledge**_
   - [ ] study basic knowledge of list, dict, array....; _**ING**_
   - [ ] study how to define a variable: private & public; _**ING**_
+  - [ ] study string encoding; _**FINISHED**_
 
   _**AdvancedKnowledge**_
   - [x] study how to define a module; _**FINISHED**_
